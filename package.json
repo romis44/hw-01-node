@@ -1,0 +1,29 @@
+{
+  "name": "hw-01-node",
+  "version": "1.0.0",
+  "description": "My homework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index",
+    "start:dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romis44/hw-01-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romis44/hw-01-node/issues"
+  },
+  "homepage": "https://github.com/romis44/hw-01-node#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nanoid": "^3.3.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
